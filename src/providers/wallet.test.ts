@@ -73,5 +73,10 @@ describe("WalletProvider", () => {
     expect(parseFloat(prices.solana.usd)).not.toBeNaN();
     expect(parseFloat(prices.bitcoin.usd)).not.toBeNaN();
     expect(parseFloat(prices.ethereum.usd)).not.toBeNaN();
+
+    // console.log prices
+    console.log("Solana Price:", prices.solana.usd);
+    console.log("Bitcoin Price:", prices.bitcoin.usd);
+    console.log("Ethereum Price:", prices.ethereum.usd);
   });
 });
